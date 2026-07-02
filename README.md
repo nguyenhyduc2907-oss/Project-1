@@ -70,6 +70,8 @@ LIMIT 10;
 
 This helps show which remote Data Analyst roles offer the highest salary potential and which companies are hiring for those roles.
 
+![Average salary distribution for the top 10 paying Data Analyst jobs](project_sql/assets/01_top_paying_data_analyst_jobs_white.png)
+
 ### 2. Skills Required for Top-Paying Jobs
 
 File: [project_sql/2.sql](project_sql/2.sql)
@@ -178,6 +180,8 @@ The query returns one row per job-skill pair, so the same job appears multiple t
 
 This shows which technical skills appear in the highest-paying opportunities.
 
+![Skill count for the top 10 paying Data Analyst jobs](project_sql/assets/02_top_paying_data_analyst_job_skills_white.png)
+
 ### 3. Most In-Demand Skills
 
 File: [project_sql/3.sql](project_sql/3.sql)
@@ -207,6 +211,8 @@ LIMIT 5;
 | Power BI | 39,468 |
 
 SQL is the most requested skill for Data Analyst roles, followed by Excel and Python. Visualization tools like Tableau and Power BI also appear strongly, showing that employers value both data querying and reporting skills.
+
+![Most in-demand skills for Data Analyst jobs](project_sql/assets/03_most_in_demand_data_analyst_skills_white.png)
 
 ### 4. Skills Based on Salary
 
@@ -335,3 +341,4 @@ Key takeaways:
 3. In-demand skills are useful for employability, while salary-based analysis shows which skills may be more financially valuable.
 4. The most optimal skills are those that combine high demand with strong average salaries.
 5. SQL is central to this analysis and remains an important skill for data analyst work.
+
